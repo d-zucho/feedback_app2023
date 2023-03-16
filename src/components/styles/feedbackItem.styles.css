@@ -1,0 +1,22 @@
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* *** Icon state: Default */
+.icons-container > * {
+  transition: 200ms all ease-in-out;
+  font-size: 1.35rem;
+  margin: 1.125rem 0 0;
+}
+
+/* *** Icon state: Hover */
+.icons-container > *:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* *** Icon state: Active */
+.icons-container > *:active {
+  color: rgb(255, 106, 149);
+}
